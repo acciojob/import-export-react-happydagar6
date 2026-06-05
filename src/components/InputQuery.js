@@ -1,7 +1,7 @@
-import React from 'react'
+import React from 'react';
 
-function InputQuery() {
-    return (
-        <input placeHolder={'Enter your query here..'} />
-    )
-}
+const InputQuery = () => {
+  return <input type="text" placeholder="Enter query..." />;
+};
+
+export default InputQuery;

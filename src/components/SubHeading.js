@@ -1,7 +1,7 @@
-import React from 'react'
+import React from 'react';
 
-function SubHeading() {
-    return (
-        <h5>Happy to solve you doubts.</h5>
-    )
-}
+const SubHeading = () => {
+  return <h2>SubHeading</h2>;
+};
+
+export default SubHeading;
